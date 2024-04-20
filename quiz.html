@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit Form Data</title>
+    <style>
+        .image-button {
+            width: 50px; 
+            height: auto; 
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+        .images-container {
+            display: flex;       
+            justify-content: center; 
+            align-items: center;   
+            height: 100vh;       
+            gap: 50px;      
+        }
+        body{
+            background-color: rgb(76,63,205);
+             font-family:InFont;
+             color: aliceblue;
+        }
+
+        .image-button:hover {
+            transform: scale(1.2); 
+        }
+        .centered-container {
+            display: grid;
+            justify-content: center; 
+            height: 100vh; 
+        }
+    </style>
+</head>
+<body>
+    <div class="images-container">
+        <img src="c1.png" width="100" height="100" alt="Fortune Cookie 1" id="imageButton1" style="cursor:pointer;" class="image-button">
+        <img src="c2.png" width="100" height="100" alt="Fortune Cookie 2" id="imageButton2" style="cursor:pointer;" class="image-button">
+        <img src="c3.png" width="100" height="100" alt="Fortune Cookie 3" id="imageButton3" style="cursor:pointer;" class="image-button">    
+
+        <script src="callapi.js"></script>
+    </div>
+</body>
+</html>
